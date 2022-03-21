@@ -1,0 +1,559 @@
+body {
+
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+    line-height: 1.5em;
+    
+}
+
+header{
+    background-color: rgba(201, 192, 192, 0.74);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#logo {
+    width: 400px;
+    height: auto;
+    margin-left: 0%;
+}
+nav {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin-left: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    transition: 0.3s all;
+
+}
+
+nav a:hover {
+    color:rgb(255, 123, 0);
+}
+
+nav a:active {
+    color:rgb(255, 81, 0);
+    
+}
+
+main {
+
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.input-padrao{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.produtos{
+    width: 940px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+}
+
+.produtos a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border: 2px solid rgba(187, 187, 187, 0);
+    border-radius: 10px;
+    transition: 0.1s all;
+   
+}
+
+.produtos li img{
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+
+.produtos p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover img{
+
+    transform: rotate(1deg);
+}
+
+.produtos li:hover{
+
+    border-color: rgb(255, 123, 0);
+    border-width: 4px;
+}
+
+.produtos li:hover h2 {
+    color: rgb(255, 123, 0);
+}
+
+.produtos li:hover p {
+    color: rgb(255, 123, 0);
+}
+
+.produtos li:active h2 {
+    color: rgb(255, 81, 0);
+}
+
+.produtos li:active p {
+    color: rgb(255, 81, 0);
+}
+
+.produtos li:active{
+    border-color: rgb(255, 81, 0);
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.produtos li img {
+    width: 265px;
+}
+
+.descricao{
+    font-size: 18px;
+    color: rgba(175, 175, 175, 0);
+}
+
+.preco {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: rgb(253, 152, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: rgb(255, 115, 0);
+    transform: scale(1.01) rotate(2deg);
+}
+
+.enviar:active{
+    background-color: rgb(255, 94, 0);
+}
+
+table {
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+}
+
+thead, th {
+    background-color: rgba(49, 49, 49, 0.87);
+    color: white;
+    font-weight: bold;
+    padding: 6px 13px;
+    border: 1px solid black;
+    font-size: 27px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 6px 13px;
+    background-color: rgba(255, 255, 255, 0.774);
+    color: black;
+    font-size: 25px;
+    
+}
+
+footer{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: roboto;
+
+}
+
+.copyright{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#imgfooter {
+    height: 300px;
+    margin-bottom: 0;
+}
+
+/* CSS dda pag inicial*/
+.banner{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    font-weight: 500;
+}
+
+.titulo-beneficio{
+    margin-left: 18%;
+}
+
+.principal p{
+margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.forja {
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+}
+
+
+
+.conteudo_p {
+    font-size: 25px;
+}
+
+#missao {
+    font-size: 32px;
+}
+
+#missao strong {
+    color: rgb(255, 94, 0);
+}
+
+.tudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.tudo2 {
+
+}
+
+.chifre{
+    width: 150px;
+    float: left;
+    margin: 20px 20px 20px 20px;
+}
+
+.principal {
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: azure;
+    padding: 10px;
+    padding-right: 20px;
+    margin-left: 0;
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#missao {
+    text-align: center;
+}
+
+.conteudo_p {
+    text-align: center;
+}
+
+.mapa {
+    text-align: center;
+    font-weight: bold;
+    padding: 3em 0;
+}
+
+.mapa > p{
+    margin-bottom: 40px;
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 50px black;
+}
+
+#espada {
+    width: 60%;
+    object-fit: cover;
+    transition: 0.2s all;
+
+}
+
+#espada:hover{
+    opacity: 0.5;
+    transform: scale(105%);
+    cursor: pointer;
+    box-shadow: 10px 10px 20px black;
+}
+
+.ulbene {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.ulbene li{
+    line-height: 1.5em;
+}
+
+.ulbene li:first-child{
+    font-weight: bold;
+}
+
+.ulbene li:before{
+    content: "ᛜ";
+}
+
+.beneficios h2{
+    text-align: center;
+    width: 75%;
+}
+
+.beneficios{
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.video {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 600px;
+}
+
+.baixo{
+ 
+}
+
+#criador{
+    text-align: center;
+    width: 100%;
+    transition: 0.2s all;
+
+}
+
+  .figa{
+    position: absolute;
+    top: 89%;
+    left: -3%;
+    background-color: rgba(97, 97, 97, 0);
+    width: 105%;
+    text-align: center;
+    transition: 0.2s all;
+}
+
+.criador-div:hover .figa{
+    background-color: rgba(128, 128, 128, 0.548);
+}
+
+.criador-div:hover #criador{
+    box-shadow: 10px 10px 30px black;
+    transform: scale(105%);
+}
+
+.criador-div:hover #facebook{
+    opacity: 1;
+}
+
+.criador-div:hover #whatsapp{
+    opacity: 1;
+}
+
+
+#facebook
+{
+    width: 50px;
+    opacity: 0;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+#whatsapp
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    opacity: 0;
+    margin-bottom: 2px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.criador-div{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    transition: 0.2s all;
+    margin-bottom: 130px;
+}
+
+h4 + p{
+    font-weight: bold;
+    color:rgba(255, 81, 0);;
+}
+
+.tudo-contato{
+    margin-left: 45px;
+}
+
+@media screen and (max-width: 830px){
+
+    header {
+        width: 100%;
+    }
+    .caixa{
+        width: 100%;
+    }
+    .principal, .conteudo-beneficios, .mapa-conteudo, .video, .tudo-contato{
+        width: auto;
+    }
+
+    main{
+        width: 100%;
+        margin: 0 0 ;
+    }
+
+    .produtos {
+        width: auto;
+        margin: 0 0 ;
+    }
+
+    .produtos li{
+        width: 30%;
+        margin: 0 0;
+    }
+
+    .produtos .ibage{
+        width: 150px;
+        height: auto;
+    }
+
+    .tudo{
+        width: 100%;
+        margin: 0 0;
+    }
+
+    .tudo-contato{
+        margin-left: 45px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin: 0 0 ;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    nav ul li{
+        text-align: center;
+    }
+
+    .banner{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    
+    }
+
+    .caixa{
+        margin: 0 0;
+    }
+
+    .conteudo-beneficios, #espada{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
